@@ -29,9 +29,9 @@ ul {
     list-style-type: none;
 }
 
-.conteiner {
-    padding: 0 156px;
-    max-width: 1440px;
+.container {
+    padding: 0 15px;
+    width: 1158px;
     margin: 0 auto;
 }
 
@@ -50,12 +50,15 @@ ul {
 }
 
 .header {
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFF;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    border-bottom: 1px solid #E7E9FC;
-    background: #FFF;
 }
 
 .header a {
